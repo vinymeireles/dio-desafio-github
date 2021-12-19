@@ -1,0 +1,30 @@
+gerando uma chave ssh no GIT:
+
+$ ssh-keygen -t ed25519 -C viniciusmeireles@gmail.com
+
+password: viny
+
+local dos arquivos: C:\Users\vinic\.ssh
+
+chave publica:
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIISIVTM+kCx870kHBC8TT7+w77Uu9zIuaUxnprsm5ihV viniciusmeireles@gmail.com
+
+//start no projeto
+$ eval $(ssh-agent -s)
+Agent pid 871
+
+//adicionar ssh a chave privada:
+$ ssh-add id_ed25519
+password: viny
+
+//clonar um repositorio private do GitHub:
+$ git clone <caminho do arquivo ssh da pagina>
+yes
+
+//************ Meu Token*************
+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
+
+//clonar um repositorio usando hhtp:
+$git clone http://url_do_repositorio.
+forneça o seu token.
+

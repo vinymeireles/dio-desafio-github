@@ -1,0 +1,10 @@
+****************************Curso de Intro. Git/GitHub da DIO************************************************
+
+Link para download do Git: https://git-scm.com/downloads
+-------------------------------------------------------------------------------------------------------------
+
+*Instalação do Git
+*Configuração do GitHub
+*Comando básicos
+*Ciclo de vida do Projeto Git/GitHub
+*Criptografia SHA1 / SHH

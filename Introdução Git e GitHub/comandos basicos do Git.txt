@@ -1,0 +1,23 @@
+comandos basicos do Git:
+
+-git init: iniciar um repositório vazio
+
+- git add:
+
+-git commit:
+
+//criando um repositorio
+
+$ git_init
+
+//configurando o repositorio para versionar um código
+git config --global user.email "viniciusmeireles@gmail.com"
+git config --global user.name Viny
+
+//adicionando um arquivo (markdown)
+criar um arquivo e texto e salva-lo como arquivo.md
+apos executar com o aplicativo Typora.
+
+//Gerando um commit no Git
+$git add*
+$ git commit -m "commit inicial"

@@ -1,0 +1,30 @@
+-altere o arquivo do codigo no git local e salve.
+-abra o git bash
+-$ git status (modified)
+-$ git add * (adicionar todo diretório para estado staged
+-$ ls (lista o diretorio)
+-$ git status (verifica o estado atual do git - "preparado para ser comitado - committed").
+-$ git commit -m "adicione uma descrição da alteração/inserção arquivo"
+-$ git push origin master (empurrar o arquivo para o repositorio remoto - GitHub)
+
+--------------------------------------------------------------------------
+puxar um arquivo do repositorio remoto (GitHub) para o local (Git).
+
+$git pull origin master.
+
+-----------------------------------
+Pode ocorrer um erro ao enviar um arquivo para GitHub (desatualizado), mensagem que o arquivo esta defasado, voce deve
+fazer um push da nova versão remoto(GitHub) - local(Git).
+
+----------------------------------
+clonar um repositorio.
+$git clone <url>
+
+apos entrar no diretorio do novo repositorio baixado no disco local c:
+$ls
+$ cd cpypthon/
+$ls -a (lista todos diretorios, inclusive os ocultos)
+$ git remote -v (mostra o repositorio remoto referente ao repositorio clonado(baixado) para a sua maquina).
+
+
+ 
