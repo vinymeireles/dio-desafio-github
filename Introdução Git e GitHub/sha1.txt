@@ -1,6 +1,0 @@
-GIT hash
-comando para criptografar SHA1:
-$openss1 sha1 text.txt
-
-a0c3382324aed5a24810bc94cf3f2cde100f16ec
-860ee923d7176b9d6b476f1c662aa6f2e12fb138
